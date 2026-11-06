@@ -3,171 +3,90 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mankarans Editing Courses | After Effects Courses</title>
-<meta name="description" content="Learn professional video editing and Adobe After Effects with Mankarans Editing Courses.">
+<title>Mankarans Editing Courses | One Course Is All It Takes</title>
+<meta name="description" content="Learn Adobe After Effects with the complete Mankarans Editing Course. Video lessons and downloadable project files for one one-time price.">
+<meta name="theme-color" content="#101426">
 <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f5f7fb;
-      color: #182230;
-      line-height: 1.6;
-    }
-    header {
-      background: #111827;
-      color: white;
-      padding: 18px 8%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .logo { font-size: 1.5rem; font-weight: 800; }
-    .logo span { color: #60a5fa; }
-    nav a { color: #e5e7eb; text-decoration: none; margin-left: 22px; }
-    nav a:hover { color: #60a5fa; }
-    .hero {
-      text-align: center;
-      padding: 76px 20px 65px;
-      background: linear-gradient(135deg, #1d4ed8, #6d28d9);
-      color: white;
-    }
-    .hero h1 { font-size: clamp(2rem, 5vw, 3.3rem); margin-bottom: 14px; }
-    .hero p { max-width: 650px; margin: 0 auto 25px; color: #e8edff; }
-    .hero a {
-      display: inline-block; background: white; color: #1d4ed8;
-      padding: 12px 24px; border-radius: 9px; font-weight: bold;
-      text-decoration: none;
-    }
-    section { padding: 58px 8%; }
-    .section-heading { text-align: center; margin-bottom: 32px; }
-    .section-heading h2 { font-size: 2rem; margin-bottom: 8px; }
-    .section-heading p { color: #64748b; }
-    .courses {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 22px;
-      max-width: 1100px;
-      margin: auto;
-    }
-    .course {
-      background: white; border-radius: 16px; padding: 28px;
-      box-shadow: 0 8px 28px rgba(15, 23, 42, .08);
-      border: 1px solid #e8edf5;
-      display: flex; flex-direction: column;
-    }
-    .course.featured { border: 2px solid #6366f1; transform: translateY(-7px); }
-    .tag {
-      display: inline-block; align-self: flex-start; background: #eef2ff;
-      color: #4338ca; border-radius: 30px; padding: 5px 11px;
-      font-size: .8rem; font-weight: bold; margin-bottom: 14px;
-    }
-    .course h3 { font-size: 1.35rem; margin-bottom: 8px; }
-    .description { color: #64748b; min-height: 52px; }
-    .price { font-size: 2.5rem; font-weight: 800; margin: 18px 0; color: #111827; }
-    .price small { font-size: .9rem; font-weight: normal; color: #64748b; }
-    ul { list-style: none; margin: 0 0 24px; }
-    li { margin: 10px 0; }
-    li::before { content: "✓"; color: #16a34a; font-weight: bold; margin-right: 9px; }
-    .enroll {
-      display: block; margin-top: auto; text-align: center;
-      padding: 12px; background: #2563eb; color: white;
-      border-radius: 9px; text-decoration: none; font-weight: bold;
-    }
-    .enroll:hover { background: #1d4ed8; }
-    .featured .enroll { background: #4f46e5; }
-    .about {
-      background: white; text-align: center;
-    }
-    .about p { max-width: 720px; margin: 12px auto; color: #64748b; }
-    footer {
-      background: #111827; color: #cbd5e1; text-align: center;
-      padding: 25px 15px; font-size: .9rem;
-    }
-    @media (max-width: 850px) {
-      .courses { grid-template-columns: 1fr; max-width: 480px; }
-      .course.featured { transform: none; }
-      nav a { margin-left: 10px; }
-    }
-  </style>
+:root{--bg:#0b1020;--panel:#141c32;--text:#f7f8ff;--muted:#b8c2d9;--accent:#8b7cff;--mint:#55d6be;--line:#2a3654}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,sans-serif;line-height:1.6}
+.wrap{width:min(1080px,92%);margin:auto}header{display:flex;justify-content:space-between;align-items:center;padding:22px 0;gap:16px;flex-wrap:wrap}
+.brand{font-weight:900}.brand span{color:var(--mint)}nav{display:flex;gap:20px}nav a{color:var(--muted);text-decoration:none}
+.hero{padding:72px 0;background:radial-gradient(ellipse at 80% 20%,#342c72,transparent 42%),radial-gradient(ellipse at 10% 80%,#124e59,transparent 35%)}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}.eyebrow{color:var(--mint);font-size:.8rem;font-weight:bold;letter-spacing:2px}
+h1{font-size:clamp(2.7rem,6vw,5rem);line-height:1.03;letter-spacing:-2px;margin:15px 0}h1 em{font-style:normal;color:var(--mint)}
+.lead{font-size:1.1rem;color:var(--muted);max-width:620px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-block;padding:13px 20px;border-radius:11px;font-weight:bold;text-decoration:none}.primary{background:linear-gradient(110deg,var(--accent),#6555df);color:white}.secondary{border:1px solid var(--line);color:white}
+.hero-card,.feature,.course-box,.notice{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:24px}
+.screen{height:175px;border-radius:14px;background:linear-gradient(135deg,#5b4bb7,#182d4a 60%,#19a28b);display:grid;place-items:center;font-size:3.5rem;margin-bottom:18px}
+.pill{display:inline-block;background:#183f43;color:#8cf0d9;padding:5px 10px;border-radius:30px;font-size:.78rem;font-weight:bold}
+.price{font-size:3rem;font-weight:900;line-height:1.2}.price small{font-size:.95rem;color:var(--muted);font-weight:normal}
+section{padding:60px 0}.section-title{text-align:center;font-size:2rem;margin:0 0 8px}.section-sub{text-align:center;color:var(--muted);max-width:680px;margin:0 auto 30px}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature h3{margin:8px 0}.feature p,.muted{color:var(--muted)}.icon{font-size:1.8rem}
+.included{display:grid;grid-template-columns:1fr 1fr;gap:18px}.course-box{max-width:760px;margin:auto;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}
+.course-box ul{padding-left:20px;color:var(--muted)}.course-box li{margin:7px 0}.notice{max-width:760px;margin:20px auto 0;border-color:#665a9c;background:#171a35}.notice strong{color:#c6beff}
+footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:.9rem}
+@media(max-width:760px){.hero-grid,.features,.included,.course-box{grid-template-columns:1fr}.hero{padding:45px 0}nav{gap:12px}nav a{font-size:.9rem}}
+</style>
 </head>
 <body>
-  <header>
-    <div class="logo">Learn<span>Hub</span></div>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#courses">Courses</a>
-      <a href="#about">About</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero" id="home">
-      <h1>Learn New Skills. Build Your Future.</h1>
-      <p>Choose a course that fits your goals and start learning at your own pace.</p>
-      <a href="#courses">Explore Courses</a>
-    </section>
-
-    <section id="courses">
-      <div class="section-heading">
-        <h2>Choose Your Learning Plan</h2>
-        <p>Three simple plans. Choose the one that works for you.</p>
-      </div>
-
-      <div class="courses">
-        <article class="course">
-          <span class="tag">Starter</span>
-          <h3>Basic Course</h3>
-          <p class="description">A great starting point for beginners.</p>
-          <div class="price">$10 <small>/ course</small></div>
-          <ul>
-            <li>Beginner lessons</li>
-            <li>Course materials</li>
-            <li>Learn at your own pace</li>
-          </ul>
-          <a class="enroll" href="mailto:your-email@example.com?subject=Basic%20Course%20Enrollment">Enroll Now</a>
-        </article>
-
-        <article class="course featured">
-          <span class="tag">Most Popular</span>
-          <h3>Standard Course</h3>
-          <p class="description">Build your skills with more learning resources.</p>
-          <div class="price">$20 <small>/ course</small></div>
-          <ul>
-            <li>Everything in Basic</li>
-            <li>Extra practice lessons</li>
-            <li>Additional learning resources</li>
-          </ul>
-          <a class="enroll" href="mailto:your-email@example.com?subject=Standard%20Course%20Enrollment">Enroll Now</a>
-        </article>
-
-        <article class="course">
-          <span class="tag">Premium</span>
-          <h3>Advanced Course</h3>
-          <p class="description">Get the complete learning experience.</p>
-          <div class="price">$30 <small>/ course</small></div>
-          <ul>
-            <li>Everything in Standard</li>
-            <li>Advanced lessons</li>
-            <li>Complete course resources</li>
-          </ul>
-          <a class="enroll" href="mailto:your-email@example.com?subject=Advanced%20Course%20Enrollment">Enroll Now</a>
-        </article>
-      </div>
-    </section>
-
-    <section class="about" id="about">
-      <div class="section-heading">
-        <h2>About LearnHub</h2>
-        <p>We make learning simple, accessible, and enjoyable. Pick a plan and take the next step toward your goals.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2026 LearnHub. All rights reserved.</p>
-    <p>Replace the sample email and course details with your own information.</p>
-  </footer>
+<header class="wrap">
+  <div class="brand">MANKARANS <span>EDITING COURSES</span></div>
+  <nav><a href="#course">The Course</a><a href="#included">What's Included</a><a href="#enroll">Enroll</a></nav>
+</header>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+  <div><span class="eyebrow">ADOBE AFTER EFFECTS • COMPLETE COURSE</span>
+    <h1>One course.<br><em>All it takes.</em></h1>
+    <p class="lead">Build your video-editing and motion-graphics skills with one focused Adobe After Effects course. Learn through video lessons and follow along with project files.</p>
+    <div class="actions"><a class="btn primary" href="#enroll">Get the course — $10</a><a class="btn secondary" href="#included">See what's included</a></div>
+  </div>
+  <aside class="hero-card"><div class="screen">▶</div><span class="pill">ONE-TIME PAYMENT</span>
+    <p class="muted">Complete After Effects Course</p><div class="price">$10 <small>USD · once</small></div>
+    <p class="muted">Video lessons + downloadable course files.</p>
+  </aside>
+</div></section>
+<section id="course" class="wrap">
+  <h2 class="section-title">Learn by creating</h2><p class="section-sub">One course designed to guide learners through Adobe After Effects, from getting started to creating their own edits.</p>
+  <div class="features">
+    <article class="feature"><div class="icon">🎬</div><h3>Video lessons</h3><p>Follow clear, step-by-step lessons at your own pace.</p></article>
+    <article class="feature"><div class="icon">📁</div><h3>Project files</h3><p>Practice with downloadable assets and project files supplied with the course.</p></article>
+    <article class="feature"><div class="icon">✨</div><h3>One complete course</h3><p>One course and one upfront price. No monthly subscription.</p></article>
+  </div>
+</section>
+<section id="included" class="wrap">
+  <h2 class="section-title">Everything in one place</h2><p class="section-sub">Your course is intended to include both learning materials and practice resources.</p>
+  <div class="included">
+    <div class="feature"><div class="icon">📺</div><h3>Course video library</h3><p class="muted">Add your lesson playlist or private course-hosting link here when it is ready.</p></div>
+    <div class="feature"><div class="icon">🗂️</div><h3>Downloadable files</h3><p class="muted">Add a private download link for your project files and practice assets.</p></div>
+  </div>
+</section>
+<section id="enroll" class="wrap">
+  <h2 class="section-title">Start learning today</h2><p class="section-sub">One complete Adobe After Effects course for a one-time price of $10 USD.</p>
+  <div class="course-box">
+    <div><span class="pill">COMPLETE COURSE</span><h3 style="font-size:1.5rem;margin:10px 0 0">Mankarans Editing Courses</h3>
+      <ul><li>Video lessons</li><li>Downloadable course files</li><li>One-time $10 USD price</li></ul>
+    </div>
+    <div style="min-width:185px;text-align:center"><div class="price">$10</div><small class="muted">USD · one time</small><br><br><a class="btn primary" id="buyButton" href="#payment-setup">Buy course</a></div>
+  </div>
+  <div class="notice" id="payment-setup"><strong>Secure checkout setup still required</strong>
+    <p class="muted" style="margin-bottom:0">This is a website design, not a live payment system yet. A parent or guardian must manage an eligible payment-provider account and confirm whether USD checkout and Google Pay are available for that account. Once approved, the official checkout link can be added here. Google Pay availability depends on the provider, country, currency, and account eligibility.</p>
+  </div>
+  <p class="muted" style="text-align:center;font-size:.88rem">Never enter card details or UPI PINs directly on this website. Payments should happen only on the provider's secure checkout page.</p>
+</section>
+</main>
+<footer><div class="wrap">© 2026 Mankarans Editing Courses. All rights reserved.</div></footer>
+<script>
+// Add an approved payment link here only after a parent/guardian sets up and tests checkout.
+const PAYMENT_LINK = "";
+document.getElementById("buyButton").addEventListener("click", function(event) {
+  if (!PAYMENT_LINK) {
+    event.preventDefault();
+    document.getElementById("payment-setup").scrollIntoView({behavior:"smooth"});
+    alert("Secure checkout is not connected yet. Ask your parent or guardian to set up the payment provider first.");
+  } else {
+    this.href = PAYMENT_LINK;
+  }
+});
+</script>
 </body>
 </html>
